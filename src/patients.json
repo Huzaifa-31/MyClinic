@@ -1,0 +1,717 @@
+[
+    {
+        "id": 1,
+        "patient": {
+            "last_name": "De La Rosa",
+            "first_name": "Olivia",
+            "acct": "G99947055",
+            "dob": "09/01/1993",
+            "age": 30,
+            "sex": "Female",
+            "clinic": "WW",
+            "plan": "Membership",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Low",
+            "tobacco_use": "No",
+            "dm2": "No",
+            "statins": "Not applicable"
+        }, 
+        "labs": {
+            "quarter1": "03/03/2021",
+            "quarter2": "06/03/2021",
+            "quarter3": "09/03/2021",
+            "quarter4": "12/03/2021",
+            "egrf_date": "12/03/2021",
+            "uacr_date": "12/03/2021"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "12/03/2021",
+            "cbp": {
+                "systolic": 88,
+                "diastolic":76
+            },
+            "phq": {
+                "score": 2,
+                "level": "Normal",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Refused",
+                "date": "12/03/2021"
+            },
+            "bcs_date": "12/03/2021"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "12/03/2021",
+            "cbp": {
+                "systolic": 129,
+                "diastolic": 76
+            },
+            "fall_risk": "No"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "12/03/2021"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "12/03/2021",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 2,
+        "patient": {
+            "last_name": "Smith",
+            "first_name": "John",
+            "acct": "G12345678",
+            "dob": "05/12/1980",
+            "age": 42,
+            "sex": "Male",
+            "clinic": "XYZ",
+            "plan": "Gold",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Medium",
+            "tobacco_use": "Yes",
+            "dm2": "No",
+            "statins": "Prescribed"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "High",
+            "quarter4": "Normal",
+            "egrf_date": "02/15/2024",
+            "uacr_date": "03/20/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/25/2024",
+            "cbp": {
+                "systolic": 135,
+                "diastolic": 88
+            },
+            "phq": {
+                "score": 8,
+                "level": "Mild",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/25/2024"
+            },
+            "bcs_date": "04/25/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/25/2024",
+            "cbp": {
+                "systolic": 142,
+                "diastolic": 90
+            },
+            "fall_risk": "Yes"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/25/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/25/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 3,
+        "patient": {
+            "last_name": "Chen",
+            "first_name": "Lisa",
+            "acct": "G98765432",
+            "dob": "11/20/1975",
+            "age": 48,
+            "sex": "Female",
+            "clinic": "ABC",
+            "plan": "Silver",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "High",
+            "tobacco_use": "No",
+            "dm2": "Yes",
+            "statins": "Prescribed"
+        },
+        "labs": {
+            "quarter1": "High",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "High",
+            "egrf_date": "03/10/2024",
+            "uacr_date": "03/25/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/18/2024",
+            "cbp": {
+                "systolic": 150,
+                "diastolic": 95
+            },
+            "phq": {
+                "score": 15,
+                "level": "Severe",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/18/2024"
+            },
+            "bcs_date": "04/18/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/18/2024",
+            "cbp": {
+                "systolic": 165,
+                "diastolic": 100
+            },
+            "fall_risk": "Yes"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/18/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/18/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 4,
+        "patient": {
+            "last_name": "Garcia",
+            "first_name": "Carlos",
+            "acct": "G24681357",
+            "dob": "03/08/1988",
+            "age": 36,
+            "sex": "Male",
+            "clinic": "PQR",
+            "plan": "Bronze",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Low",
+            "tobacco_use": "No",
+            "dm2": "No",
+            "statins": "Not applicable"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "Normal",
+            "egrf_date": "02/20/2024",
+            "uacr_date": "03/15/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/10/2024",
+            "cbp": {
+                "systolic": 120,
+                "diastolic": 80
+            },
+            "phq": {
+                "score": 5,
+                "level": "Moderate",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/10/2024"
+            },
+            "bcs_date": "04/10/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/10/2024",
+            "cbp": {
+                "systolic": 130,
+                "diastolic": 85
+            },
+            "fall_risk": "No"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/10/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/10/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 5,
+        "patient": {
+            "last_name": "Williams",
+            "first_name": "Emily",
+            "acct": "G13579246",
+            "dob": "07/17/1990",
+            "age": 33,
+            "sex": "Female",
+            "clinic": "LMN",
+            "plan": "Membership",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Medium",
+            "tobacco_use": "No",
+            "dm2": "No",
+            "statins": "Prescribed"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "Normal",
+            "egrf_date": "02/18/2024",
+            "uacr_date": "03/22/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/15/2024",
+            "cbp": {
+                "systolic": 140,
+                "diastolic": 90
+            },
+            "phq": {
+                "score": 10,
+                "level": "Moderate",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/15/2024"
+            },
+            "bcs_date": "04/15/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/15/2024",
+            "cbp": {
+                "systolic": 150,
+                "diastolic": 95
+            },
+            "fall_risk": "Yes"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/15/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/15/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 6,
+        "patient": {
+            "last_name": "Nguyen",
+            "first_name": "Michael",
+            "acct": "G98712345",
+            "dob": "12/03/1977",
+            "age": 46,
+            "sex": "Male",
+            "clinic": "DEF",
+            "plan": "Gold",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "High",
+            "tobacco_use": "Yes",
+            "dm2": "No",
+            "statins": "Prescribed"
+        },
+        "labs": {
+            "quarter1": "High",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "High",
+            "egrf_date": "02/22/2024",
+            "uacr_date": "03/18/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/12/2024",
+            "cbp": {
+                "systolic": 160,
+                "diastolic": 100
+            },
+            "phq": {
+                "score": 20,
+                "level": "Severe",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/12/2024"
+            },
+            "bcs_date": "04/12/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/12/2024",
+            "cbp": {
+                "systolic": 175,
+                "diastolic": 110
+            },
+            "fall_risk": "Yes"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/12/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/12/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 7,
+        "patient": {
+            "last_name": "Martinez",
+            "first_name": "Maria",
+            "acct": "G98765432",
+            "dob": "04/29/1995",
+            "age": 28,
+            "sex": "Female",
+            "clinic": "XYZ",
+            "plan": "Silver",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Low",
+            "tobacco_use": "No",
+            "dm2": "No",
+            "statins": "Not applicable"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "Normal",
+            "egrf_date": "02/25/2024",
+            "uacr_date": "03/30/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/20/2024",
+            "cbp": {
+                "systolic": 125,
+                "diastolic": 82
+            },
+            "phq": {
+                "score": 4,
+                "level": "Normal",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/20/2024"
+            },
+            "bcs_date": "04/20/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/20/2024",
+            "cbp": {
+                "systolic": 135,
+                "diastolic": 85
+            },
+            "fall_risk": "No"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/20/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/20/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 8,
+        "patient": {
+            "last_name": "Brown",
+            "first_name": "James",
+            "acct": "G12378945",
+            "dob": "09/10/1982",
+            "age": 41,
+            "sex": "Male",
+            "clinic": "PQR",
+            "plan": "Bronze",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "High",
+            "tobacco_use": "Yes",
+            "dm2": "Yes",
+            "statins": "Prescribed"
+        },
+        "labs": {
+            "quarter1": "High",
+            "quarter2": "High",
+            "quarter3": "High",
+            "quarter4": "High",
+            "egrf_date": "02/28/2024",
+            "uacr_date": "03/25/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/22/2024",
+            "cbp": {
+                "systolic": 170,
+                "diastolic": 110
+            },
+            "phq": {
+                "score": 25,
+                "level": "Severe",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/22/2024"
+            },
+            "bcs_date": "04/22/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/22/2024",
+            "cbp": {
+                "systolic": 180,
+                "diastolic": 120
+            },
+            "fall_risk": "Yes"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/22/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/22/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 9,
+        "patient": {
+            "last_name": "Jones",
+            "first_name": "Sarah",
+            "acct": "G98745612",
+            "dob": "06/15/1983",
+            "age": 40,
+            "sex": "Female",
+            "clinic": "ABC",
+            "plan": "Gold",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Medium",
+            "tobacco_use": "No",
+            "dm2": "Yes",
+            "statins": "Prescribed"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "Normal",
+            "egrf_date": "02/10/2024",
+            "uacr_date": "03/12/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/17/2024",
+            "cbp": {
+                "systolic": 145,
+                "diastolic": 95
+            },
+            "phq": {
+                "score": 12,
+                "level": "Moderate",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/17/2024"
+            },
+            "bcs_date": "04/17/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/17/2024",
+            "cbp": {
+                "systolic": 155,
+                "diastolic": 100
+            },
+            "fall_risk": "Yes"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/17/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/17/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 10,
+        "patient": {
+            "last_name": "Rodriguez",
+            "first_name": "David",
+            "acct": "G24681357",
+            "dob": "02/25/1980",
+            "age": 44,
+            "sex": "Male",
+            "clinic": "LMN",
+            "plan": "Membership",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Low",
+            "tobacco_use": "No",
+            "dm2": "No",
+            "statins": "Not applicable"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "Normal",
+            "egrf_date": "02/15/2024",
+            "uacr_date": "03/20/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/13/2024",
+            "cbp": {
+                "systolic": 130,
+                "diastolic": 85
+            },
+            "phq": {
+                "score": 6,
+                "level": "Moderate",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/13/2024"
+            },
+            "bcs_date": "04/13/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/13/2024",
+            "cbp": {
+                "systolic": 140,
+                "diastolic": 90
+            },
+            "fall_risk": "No"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/13/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/13/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    },
+    {
+        "id": 11,
+        "patient": {
+            "last_name": "Wilson",
+            "first_name": "Michelle",
+            "acct": "G75395128",
+            "dob": "10/05/1997",
+            "age": 26,
+            "sex": "Female",
+            "clinic": "WW",
+            "plan": "Membership",
+            "benefit_year": "Jan-Dec"
+        },
+        "medical_history": {
+            "risk": "Low",
+            "tobacco_use": "No",
+            "dm2": "No",
+            "statins": "Not applicable"
+        },
+        "labs": {
+            "quarter1": "Normal",
+            "quarter2": "Normal",
+            "quarter3": "Normal",
+            "quarter4": "Normal",
+            "egrf_date": "02/28/2024",
+            "uacr_date": "03/25/2024"
+        },
+        "examination": {
+            "status": "Complete",
+            "date": "04/16/2024",
+            "cbp": {
+                "systolic": 120,
+                "diastolic": 78
+            },
+            "phq": {
+                "score": 3,
+                "level": "Normal",
+                "date": "04/10/2024"
+            },
+            "col": {
+                "status": "Complete",
+                "date": "04/16/2024"
+            },
+            "bcs_date": "04/16/2024"
+        },
+        "acce": {
+            "status": "Complete",
+            "date": "04/16/2024",
+            "cbp": {
+                "systolic": 130,
+                "diastolic": 82
+            },
+            "fall_risk": "No"
+        },
+        "foot": {
+            "status": "Complete",
+            "date": "04/16/2024"
+        },
+        "eye": {
+            "status": "Complete",
+            "date": "04/16/2024",
+            "attestation": "Not needed",
+            "hosp": "Not needed"
+        }
+    }                        
+]
